@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Roboto, sans-serif;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .resume {
+            margin: 60px auto 0;
+            margin-bottom: 0px;
+            width: 210mm;
+            height: 297mm;
+            background: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-y: scroll;
+
+            display: flex;
+            padding: 40px 25px;
+            column-gap: 10px;
+        }
+
+        .col1 {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 66%;
+            row-gap: 20px;
+            height: 100%;
+        }
+
+        .col2 {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 34%;
+            row-gap: 20px;
+            height: 100%;
+            font-size: 12px;
+
+        }
+
+        .box {
+            border: 1px solid rgba(154, 205, 50, 0.75);
+            border-radius: 5px;
+            padding: 15px 10px 10px;
+            position: relative;
+        }
+
+        .header {
+            position: absolute;
+            top: 0px;
+            transform: translate(0px, -50%);
+            background: white;
+            padding: 0px 5px;
+            font-weight: bold;
+            color: rgb(24, 144, 255);
+        }
+
+        .name {
+            font-size: 20px;
+            line-height: 1.75rem;
+            font-weight: 500;
+        }
+
+        .img-circle {
+            border-radius: 50%;
+        }
+
+        .details {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+        }
+
+        p {
+            margin: 0;
+            font-size: .75rem;
+            line-height: 1rem;
+        }
+
+        .gap-2 {
+            gap: .5rem;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .text-xs {
+            font-size: .75rem;
+            line-height: 1rem;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        .project {
+            display: flex;
+            flex-direction: column;
+            padding: 6px 16px;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            list-style: none;
+            margin: 5px 0 0 0;
+            padding: 0;
+        }
+
+        .project .li {
+
+            display: flex;
+
+        }
+
+        .project-highlight {
+            display: flex;
+            flex-direction: column;
+            flex: 0 1 0%;
+            -webkit-box-align: center;
+            align-items: center;
+            margin-right: 8px;
+        }
+
+        .project-highlight .bullet {
+            display: flex;
+            align-self: baseline;
+            border-style: solid;
+            border-width: 2px;
+            padding: 4px;
+            border-radius: 50%;
+            box-shadow: none;
+            margin: 3px 0 0 0;
+            background-color: transparent;
+            border-color: rgb(46, 64, 82);
+        }
+
+        .project-highlight .line {
+            width: 2px;
+            background-color: rgb(189, 189, 189);
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+        }
+
+
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .items-end {
+            align-items: flex-end;
+            width: 100%;
+        }
+
+        .p-content {
+            width: 100%;
+        }
+
+        .font-medium {
+            font-weight: 550;
+        }
+
+        .desc {
+            margin-left: 2px;
+        }
+
+        .edu {
+            margin-bottom: 5px;
+        }
+
+        .edu-highlight {
+            display: flex;
+            flex-direction: column;
+            flex: 0 1 0%;
+            -webkit-box-align: center;
+            align-items: center;
+            margin-right: 5px;
+        }
+
+        .edu-highlight .bullet {
+            display: flex;
+            align-self: baseline;
+            border-style: solid;
+            border-width: 2px;
+            padding: 4px;
+            border-radius: 50%;
+            box-shadow: none;
+            margin: 2px 0 0 0px;
+            background-color: transparent;
+            border-color: rgb(46, 64, 82);
+        }
+
+        .edu-highlight .line {
+            width: 2px;
+            background-color: rgb(189, 189, 189);
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+        }
+
+        .education-list {
+            display: flex;
+            list-style: none;
+            /* gap: 10px; */
+            margin: 0;
+            padding: 0;
+            flex-direction: column;
+            width: 100%;
+
+        }
+
+        .skills {
+            display: flex;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-item {
+            border: 1px solid yellowgreen;
+            border-radius: 4px;
+            border-width: 1px;
+            border-style: solid;
+            padding: 0.25rem;
+        }
+
+        .achievements {
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            padding-inline-start: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume">
+
+        <div class="col1">
+
+            <div class="box">
+                <div class="header">
+                    <span class="name">Umendra Pardhi</span>
+                </div>
+
+                <div class="details">
+                    <div class="img">
+                        <img src="./img2.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird"
+                            width="60px">
+                    </div>
+                    <div class="contact">
+
+                        <div class="">
+                            <div class="flex gap-2">
+                                <img alt="Phone" width="12" height="12" src="phone.svg" style="color: transparent;">
+                                <a class="text-xs" href="tel:+91 7447564274">+91 7447564274</a>
+                            </div>
+                            <div class="flex gap-2">
+                                <img alt="Email" width="12" height="12" src="mail.svg" style="color: transparent;">
+                                <a class="text-xs" href="mailto:umendratpardhi@gmail.com">umendratpardhi@gmail.com</a>
+                            </div>
+                            <div class="flex gap-2">
+                                <img alt="Location" width="12" height="12" src="location.svg"
+                                    style="color: transparent;">
+                                <span class="text-xs">Gondia</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact">
+
+                        <div class="">
+                            <div class="flex gap-2">
+                                <img alt="github" width="12" height="12" src="github.svg" style="color: transparent;">
+                                <a class="text-xs" href="https://github.com/Umendra-Pardhi">github.com/Umendra-Pardhi</a>
+                            </div>
+                            <div class="flex gap-2">
+                                <img alt="Email" width="12" height="12" src="linkedin.svg" style="color: transparent;">
+                                <a class="text-xs" href="https://www.linkedin.com/in/umendrapardhi/">linkedin.com/in/umendrapardhi</a>
+                            </div>
+                            <div class="flex gap-2">
+                                <img alt="Location" width="12" height="12" src="globe.svg"
+                                    style="color: transparent;">
+                                    <a class="text-xs" href="umendrapardhi.web.app">umendrapardhi.web.app</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="box">
+                <div class="header">
+                    <span class="name">Education</span>
+                </div>
+                <div class="flex edu">
+
+                    <div class="edu-highlight">
+                        <span class="bullet"></span>
+                        <span class="line"></span>
+                    </div>
+
+                    <ul class="education-list">
+
+                        <div class="flex justify-between">
+                            <li class="text-xs"><b>B-Tech in Computer Engineering</b></li>
+                            <li class="text-xs">Score: 7.98</li>
+
+                        </div>
+                        <div class="flex justify-between">
+                            <li class="text-xs">Government college of engineering, Yavatmal</li>
+                            <li class="text-xs">University: DBATU, Lonere</li>
+                        </div>
+                    </ul>
+
+                </div>
+
+                <div class="flex">
+
+                    <div class="edu-highlight">
+                        <span class="bullet"></span>
+                        <span class="line"></span>
+                    </div>
+
+                    <ul class="education-list">
+
+                        <div class="flex justify-between">
+                            <li class="text-xs"><b>B-Tech in Computer Engineering</b></li>
+                            <li class="text-xs">Score: 7.98</li>
+
+                        </div>
+                        <div class="flex justify-between">
+                            <li class="text-xs">Government college of engineering, Yavatmal</li>
+                            <li class="text-xs">University: DBATU, Lonere</li>
+                        </div>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="header">
+                    <span class="name">Projects</span>
+                </div>
+
+
+                <ul class="project">
+                    <li class="li">
+                        <div class="project-highlight">
+                            <span class="bullet"></span>
+                            <span class="line"></span>
+                        </div>
+                        <div class="p-content">
+                            <div class="flex justify-between items-end">
+                                <div class="text-medium">Project Title</div>
+                                <!-- <div class="italic text-xs">Team size:</div> -->
+                            </div>
+                            <div class="flex justify-between items-end">
+                                <div class="font-medium text-xs">Tech Stack: HTML, JS, CSS</div>
+
+                            </div>
+                            <div class="desc text-xs">
+                                this is description of projectthis is description of projectthis is description of
+                                projectthis is description of projectthis is description of projectthis is description
+                                of projectthis is description of projectthis is description of projectthis is
+                                description of projectthis is description of projectthis is description of projectthis
+                                is description of projectthis is description of projectthis is description of
+                                projectthis is description of projectthis is description of projectthis is description
+                                of projectthis is description of projectthis is description of projectthis is
+                                description of projectthis is description of project
+                            </div>
+
+                            <!-- <div class="flex justify-between">
+                                <div class="font-medium text-xs">Team Size: 5 </div>
+                                <div class="font-medium text-xs">Role: Leader </div>
+                            </div> -->
+                        </div>
+                    </li>
+                </ul>
+                <ul class="project">
+                    <li class="li">
+                        <div class="project-highlight">
+                            <span class="bullet"></span>
+                            <span class="line"></span>
+                        </div>
+                        <div class="p-content">
+                            <div class="flex justify-between items-end">
+                                <div class="text-medium">Project Title</div>
+                                <!-- <div class="italic text-xs">Team size:</div> -->
+                            </div>
+                            <div class="flex justify-between items-end">
+                                <div class="font-medium text-xs">Tech Stack: HTML, JS, CSS</div>
+
+                            </div>
+                            <div class="desc text-xs">
+                                this is description of projectthis is description of projectthis is description of
+                                projectthis is description of projectthis is description of projectthis is description
+                                of projectthis is description of projectthis is description of projectthis is
+                                description of projectthis is description of projectthis is description of projectthis
+                                is description of projectthis is description of projectthis is description of
+                                projectthis is description of projectthis is description of projectthis is description
+                                of projectthis is description of projectthis is description of projectthis is
+                                description of projectthis is description of project
+                            </div>
+
+                            <!-- <div class="flex justify-between">
+                                <div class="font-medium text-xs">Team Size: 5 </div>
+                                <div class="font-medium text-xs">Role: Leader </div>
+                            </div> -->
+                        </div>
+                    </li>
+                </ul>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="col2">
+            <div class="box">
+                <div class="header">
+                    <span class="">Career Objective</span>
+                </div>
+                <p>Eager to expand my skill set through external trainings to help boost all major front desk KPIs.
+                    Hoping to leverage organizational skills to help ABC Corp introduce time-saving schemes for all
+                    executives.</p>
+            </div>
+
+            <div class="box">
+                <div class="header">
+                    <span class="">Tech Skills</span>
+                </div>
+
+                <div class="skills">
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">Android Developemement</div>
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">Android Developemement</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="header">
+                    <span class="">Achievements</span>
+                </div>
+                <ul class="achievements">
+                    <li>Certification in js</li>
+                    <li>Certification in js</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

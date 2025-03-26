@@ -1,0 +1,119 @@
+{
+    "Details": {
+        "name": "John Doe",
+        "mobile": "1234567890",
+        "email": "johndoe@gmail.com",
+        "careerObjective": "Motivated and detail-oriented aspiring full stack developer, eager to apply my skills in creating user-friendly web solutions. Committed to learning and contributing to impactful projects as I begin my career in web development.",
+        "address": "Naringe Nagar, Yavatmal",
+        "city": "Yavatmal",
+        "state": "Maharashtra",
+        "zip": "445001",
+        "Education": [
+            {
+                "Class": "10th",
+                "School\/College": "school name",
+                "Board\/University": "State Board",
+                "Score": "87.40%"
+            },
+            {
+                "Class": "Diploma",
+                "School\/College": "Government Polytechnic, Gondia",
+                "Board\/University": "MSBTE, Mumbai",
+                "Score": "89.14%"
+            },
+            {
+                "Class": "Engg",
+                "School\/College": "GCOE, Yavatmal",
+                "Board\/University": "DBATU, Lonere",
+                "Score": "72.30%"
+            }
+        ],
+        "Skills": [
+            {
+                "Skill": "HTML\/CSS",
+                "Remark": "Developed Online Service Center Website and several Pages"
+            },
+            {
+                "Skill": "Javascript",
+                "Remark": "Developed Terminal styled Portfolio Website, HTML Editor, Unit Converter"
+            },
+            {
+                "Skill": "React.js",
+                "Remark": "Developed GPA Converter for DBATU, ServiceLinkPro, Ananymo Website"
+            },
+            {
+                "Skill": "Node.js\/Express.js",
+                "Remark": "Developed Excel to Vcf converter, TrigLink"
+            },
+            {
+                "Skill": "Java",
+                "Remark": "Developed SlideSync an Android app that helps to control PPT slides Remotely"
+            },
+            {
+                "Skill": "Python",
+                "Remark": "Developed SlideSync Server Desktop app that helps to control PPT slides Remotely"
+            },
+            {
+                "Skill": "PHP",
+                "Remark": "The Brand of Beauty E-commerce Website"
+            }
+        ],
+        "Projects": [
+            {
+                "Title": "Project Title",
+                "Description": "Project Description comes here.",
+                "TechStack": "Python, Java, XML",
+                "Role": "Team Leader",
+                "TeamSize": "5"
+            },
+           
+            {
+                "Title": "Project Title",
+                "Description": "Project Description comes here.",
+                "TechStack": "Python, Java, XML",
+                "Role": "Sole Developer",
+                "TeamSize": ""
+            },
+            {
+                "Title": "Project Title",
+                "Description": "Project Description comes here.",
+                "TechStack": "Python, Java, XML",
+                "Role": "Team Leader",
+                "TeamSize": "5"
+            },
+            {
+                "Title": "Project Title",
+                "Description": "Project Description comes here.",
+                "TechStack": "Python, Java, XML",
+                "Role": "Team Leader",
+                "TeamSize": "5"
+            },
+            {
+                "Title": "Project Title",
+                "Description": "Project Description comes here.",
+                "TechStack": "Python, Java, XML",
+                "Role": "Team Leader",
+                "TeamSize": "5"
+            },
+            {
+                "Title": "Project Title",
+                "Description": "Project Description comes here.",
+                "TechStack": "Python, Java, XML",
+                "Role": "Team Leader",
+                "TeamSize": "5"
+            }
+            
+        ],
+        "Achievements": [
+            {
+                "Title": "Winner of Inpire Award (Science Exhibition)"
+            },
+            {
+                "Title": "Winner of Inter-State dance competition"
+            },
+            {
+                "Title": "Captain of College Hocky Team"
+            }
+        ]
+    }
+}

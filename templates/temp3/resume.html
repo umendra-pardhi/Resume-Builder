@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umendra Pardhi- Resume</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #fada9b;
+            font-family: sans-serif;
+
+        }
+
+        .resume {
+            margin: 60px auto;
+            width: 210mm;
+            height: 297mm;
+            background: #f3f2ee;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .col1 {
+            background-color: #2f2d2b;
+            flex-basis: 35%;
+            height: 100%;
+            padding: 160px 5px 5px 5px;
+            color: #f3f2ee;
+        }
+
+        .col2 {
+            background-color: #f3f2ee;
+            flex-basis: 65%;
+            height: 100%;
+            padding: 160px 5px 5px 0px;
+            color: #2f2d2b;
+        }
+
+        .header {
+            /* background-color: #f69b0946; */
+            height: 160px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+
+        }
+
+
+        .back {
+            background-color: #f69b09;
+            height: 100px;
+            width: 100%;
+            /* padding-left: 50px; */
+            margin-left: 30px;
+            display: flex;
+            border-top-left-radius: 100px;
+            border-bottom-left-radius: 100px;
+        }
+
+        .img {
+            flex-basis: 27%;
+            background-color: #f69b09;
+            border-radius: 100px;
+            position: relative;
+
+        }
+
+        .img img {
+            position: absolute;
+            top: -13px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid #fff;
+            background-color: #f69b09;
+        }
+
+        .name {
+            flex-basis: 70%;
+            background-color: #f69b09;
+            height: 100px;
+            text-align: center;
+        }
+
+        .name h2 {
+            margin: 15px 0 0 0;
+        }
+
+        .name p {
+            margin: 5px 0 0 0;
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            margin-top: 5px;
+
+
+        }
+
+        .contact .row {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 3px;
+        }
+
+        .row div {
+            display: flex;
+            align-items: center;
+
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        span {
+            font-size: 12px;
+        }
+
+        .ico {
+            background-color: #fff;
+            padding: 2px;
+            border-radius: 100px;
+            color: #f69b09;
+            margin-right: 3px;
+        }
+
+        .content {
+            height: 100%;
+            display: flex;
+        }
+
+        .section {
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            font-size: 12px;
+            padding: 0 35px 0 20px;
+            text-align: justify;
+        }
+
+        .section h5 {
+            margin: 0;
+            padding: 3px 3px 3px 20px;
+            background-color: #f69b09;
+            width: 90%;
+            color: #fff;
+
+        }
+
+        p {
+            margin: 0;
+            font-size: 12px;
+        }
+
+        .l-section {
+            margin-bottom: 10px;
+        }
+
+        .l-section h5 {
+            border: 2px solid #f69b09;
+            margin: 0;
+            padding: 2px;
+            text-align: center;
+
+        }
+
+        .skills {
+            /* display: flex;
+            flex-wrap: wrap; */
+        }
+
+        .edu {
+            display: flex;
+            margin: 5px 0;
+        }
+
+        .col1 .section p {
+            font-size: 12px;
+            padding: 0;
+        }
+
+        .achievements p {
+            text-align: left;
+        }
+
+        
+        @media (max-width: 600px) {
+       
+       .resume {
+           margin:20px 10px;
+           transform: scale(0.4); 
+           transform-origin: top left;
+       }
+   }
+
+
+        @media print {
+            
+         
+ .resume{
+   margin: 0;
+ }
+}
+
+@page {
+  size: A4 !important;
+  margin: 0 !important;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div class="resume">
+        <div class="header">
+            <div class="back">
+                <div class="img">
+                    <img src="pp.png" width="120px" style="border-radius: 100px;" alt="">
+                </div>
+                <div class="name">
+                    <h2>UMENDRA PARDHI</h2>
+                    <p style="font-weight: 600;font-size: 14px;">Fullstack Web Developer</p>
+                    <div class="contact">
+                        <div class="row">
+                            <div>
+                                <img class="ico" alt="Phone" width="12" height="12" src="phone.svg"
+                                    style="color: transparent;">
+                                <a class="text-xs" href="tel:+91 7447564274">+91 7447564274</a>
+                            </div>
+                            <div>
+                                <img class="ico" alt="Phone" width="12" height="12" src="mail.svg">
+                                <a class="text-xs" href="mailto:umendratpardhi@gmail.com">umendratpardhi@gmail.com</a>
+                            </div>
+                            <div>
+                                <img class="ico" alt="Location" width="12" height="12" src="location.svg"
+                                    style="color: transparent;">
+                                <span class="text-xs">Gondia</span>
+                            </div>
+                        </div>
+                        <!-- <div class="row" >
+                            <div>
+                                <img class="ico" alt="github" width="12" height="12" src="github.svg"
+                                    style="color: transparent;">
+                                <a class="text-xs"
+                                    href="https://github.com/Umendra-Pardhi">Umendra-Pardhi</a>
+                            </div>
+                            <div>
+                                <img class="ico" alt="linkedin" width="12" height="12" src="linkedin.svg"
+                                    style="color: transparent;">
+                                <a class="text-xs"
+                                    href="https://www.linkedin.com/in/umendrapardhi/">umendrapardhi</a>
+                            </div>
+                            <div class="flex gap-2">
+                                <img class="ico" alt="portfolio" width="12" height="12" src="globe.svg"
+                                    style="color: transparent;">
+                                <a class="text-xs" href="umendrapardhi.web.app">umendrapardhi.web.app</a>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="col1">
+
+
+
+                <div class="section">
+                    <h5>Tech Skills</h5>
+                    <div class="skills">
+                        <div style="display: flex; margin: 10px 5px; align-items: center;">
+                            <div style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+                            </div>
+                            <div>
+                                <p style="font-weight: 600;">HTML</p>
+                            </div>
+                            <div style="border:2px solid #f69b09; width: 100%;margin-left: 6px; height: 5px;">
+                                <div style="background-color: #f69b09;height: 100%;width: 98%;">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; margin: 10px 5px; align-items: center;">
+                            <div style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+                            </div>
+                            <div>
+                                <p style="font-weight: 600;">CSS</p>
+                            </div>
+                            <div style="border:2px solid #f69b09; width: 100%;margin-left: 6px; height: 5px;">
+                                <div style="background-color: #f69b09;height: 100%;width: 96%;">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: flex; margin: 10px 5px; align-items: center;">
+                            <div style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+                            </div>
+                            <div>
+                                <p style="font-weight: 600;">Javascript</p>
+                            </div>
+                            <div style="border:2px solid #f69b09; width: 100%;margin-left: 6px; height: 5px; ">
+                                <div style="background-color: #f69b09;height: 100%;width: 94%;">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: flex; margin: 10px 5px; align-items: center;">
+                            <div style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+                            </div>
+                            <div>
+                                <p style="font-weight: 600;">PHP</p>
+                            </div>
+                            <div style="border:2px solid #f69b09; width: 100%;margin-left: 6px; height: 5px; ">
+                                <div style="background-color: #f69b09;height: 100%;width: 90%;">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: flex; margin: 10px 5px; align-items: center;">
+                            <div style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+                            </div>
+                            <div>
+                                <p style="font-weight: 600;">Java</p>
+                            </div>
+                            <div style="border:2px solid #f69b09; width: 100%;margin-left: 6px; height: 5px; ">
+                                <div style="background-color: #f69b09;height: 100%;width: 92%;">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: flex; margin: 10px 5px; align-items: center;">
+                            <div style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+                            </div>
+                            <div>
+                                <p style="font-weight: 600;">Python</p>
+                            </div>
+                            <div style="border:2px solid #f69b09; width: 100%;margin-left: 6px; height: 5px; ">
+                                <div style="background-color: #f69b09;height: 100%;width: 90%;">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div style="display: flex; margin: 10px 5px; align-items: center;">
+                            <div style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+                            </div>
+                            <div>
+                                <p style="font-weight: 600;">React.js</p>
+                            </div>
+                            <div style="border:2px solid #f69b09; width: 100%;margin-left: 6px; height: 5px; ">
+                                <div style="background-color: #f69b09;height: 100%;width: 89%;">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div style="display: flex; margin: 10px 5px; align-items: center;">
+                            <div>
+                                <div
+                                    style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+                                </div>
+
+                            </div>
+                            <div>
+                                <p style="font-weight: 600;">TailwindCSS</p>
+                            </div>
+                            <div style="border:2px solid #f69b09; width: 100%;margin-left: 6px; height: 5px; ">
+                                <div style="background-color: #f69b09;height: 100%;width: 82%;">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: flex; margin: 10px 5px; align-items: center;">
+                            <div style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+                            </div>
+                            <div>
+                                <p style="font-weight: 600;">JSON</p>
+                            </div>
+                            <div style="border:2px solid #f69b09; width: 100%;margin-left: 6px; height: 5px; ">
+                                <div style="background-color: #f69b09;height: 100%;width: 97%;">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div style="display: flex; margin: 10px 5px; align-items: center;">
+                            <div>
+                                <div
+                                    style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+                                </div>
+
+                            </div>
+                            <div>
+                                <p style="font-weight: 600;">Node.js</p>
+                            </div>
+                            <div style="border:2px solid #f69b09; width: 100%;margin-left: 6px; height: 5px; ">
+                                <div style="background-color: #f69b09;height: 100%;width: 89%;">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: flex; margin: 10px 5px; align-items: center;">
+                            <div>
+                                <div
+                                    style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+                                </div>
+
+                            </div>
+                            <div>
+                                <p style="font-weight: 600;">Bootstrap</p>
+                            </div>
+                            <div style="border:2px solid #f69b09; width: 100%;margin-left: 6px; height: 5px; ">
+                                <div style="background-color: #f69b09;height: 100%;width: 99%;">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: flex; margin: 10px 5px; align-items: center;">
+                            <div>
+                                <div
+                                    style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+                                </div>
+
+                            </div>
+                            <div>
+                                <p style="font-weight: 600;">GIT</p>
+                            </div>
+                            <div style="border:2px solid #f69b09; width: 100%;margin-left: 6px; height: 5px; ">
+                                <div style="background-color: #f69b09;height: 100%;width: 95%;">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="section achievements" style="margin-top: 20px;">
+                    <h5>Achievements</h5>
+
+                    <div style="display: flex; margin: 8px 5px; ">
+                        <div>
+
+                            <div style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+
+
+                            </div>
+                        </div>
+                        <div>
+                            <p style="font-weight: 600;">
+                                Winner of Inpire Award (Science Exhibition)</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; margin: 8px 5px; ">
+                        <div>
+
+                            <div style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+
+
+                            </div>
+                        </div>
+                        <div>
+                            <p style="font-weight: 600;">Lead Developer at GCOEY CODING CLUB</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; margin: 8px 5px; ">
+                        <div>
+
+                            <div style="background-color: #f69b09;padding: 6px;border-radius: 100px;margin-right: 6px;">
+
+
+                            </div>
+                        </div>
+                        <div>
+                            <p style="font-weight: 600;">Secretary, Computer Engineering Student Association (CESA) at
+                                GCOEY</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="col2">
+
+                <div class="section">
+                    <h5>Career Objective</h5>
+                    <p style="font-weight: 600;margin-top:4px">Motivated and detail-oriented aspiring full stack
+                        developer, eager to apply my skills in creating
+                        user-friendly web solutions. Committed to learning and contributing to impactful projects as I
+                        begin my career in web development.</p>
+                </div>
+
+
+                <div class="section">
+                    <h5>Education</h5>
+
+                    <div class="education-list">
+                        <div class="edu"
+                            style="display: flex;background-color: #fada9b; margin: 10px; padding-right: 6px; border-radius: 5px;width: 91%;overflow: hidden;">
+                            <div style="background-color: #f69b09; padding: 5px;"></div>
+                            <div style="width: 100%;">
+                                <div style="display: flex; justify-content: space-between; width: 100%;">
+                                    <p style="font-weight: 600; padding: 3px;">B-Tech in Computer Engineering</p>
+                                    <p style=" padding: 3px;"><span style="font-weight: 600;">Score: </span>7.87 CGPA
+                                    </p>
+                                </div>
+
+                                <p style=" padding: 0 3px;"><span style="font-weight: 600;">College: </span>Government
+                                    College of Engineering, Yavatmal
+                                </p>
+                                <p style=" padding:2px 3px;"><span style="font-weight: 600;">University: </span>DBATU
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="edu"
+                            style="display: flex;background-color: #fada9b; margin: 10px; padding-right: 6px; border-radius: 5px;width: 91%;overflow: hidden;">
+                            <div style="background-color: #f69b09; padding: 5px;"></div>
+                            <div style="width: 100%;">
+                                <div style="display: flex; justify-content: space-between; width: 100%;">
+                                    <p style="font-weight: 600; padding: 3px;">Diploma in Computer Engineering</p>
+                                    <p style=" padding: 3px;"><span style="font-weight: 600;">Score: </span>89.14%
+                                    </p>
+                                </div>
+
+                                <p style=" padding: 0 3px;"><span style="font-weight: 600;">College: </span>Government
+                                    Polytechnic, Gondia
+                                </p>
+                                <p style=" padding:2px 3px;"><span style="font-weight: 600;">University: </span>MSBTE
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="edu"
+                            style="display: flex;background-color: #fada9b; margin: 10px; padding-right: 6px; border-radius: 5px;width: 91%;overflow: hidden;">
+                            <div style="background-color: #f69b09; padding: 5px;"></div>
+                            <div style="width: 100%;">
+                                <div style="display: flex; justify-content: space-between; width: 100%;">
+                                    <p style="font-weight: 600; padding: 3px;">10th (SSC)</p>
+                                    <p style=" padding: 3px;"><span style="font-weight: 600;">Score: </span>87.40%
+                                    </p>
+                                </div>
+
+                                <p style=" padding: 0 3px;"><span style="font-weight: 600;">School: </span>Chhatrapati
+                                    Vidyalaya, Sitepar
+                                </p>
+                                <p style=" padding:2px 3px;"><span style="font-weight: 600;">University: </span>State
+                                    Board
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <h5>Projects</h5>
+                    <div class="project-list">
+
+
+                        <div class="project"
+                            style="display: flex;background-color: #fada9b; margin: 10px; padding-right: 6px; border-radius: 5px;width: 91%;overflow: hidden;">
+                            <div style="background-color: #f69b09; padding: 5px;"></div>
+                            <div>
+                                <p style="font-weight: 600; padding: 3px;">SlideSync</p>
+                                <p style=" padding: 0 3px;"><span style="font-weight: 600;">Description:
+                                    </span>SlideSync lets you control PowerPoint slides from your Android phone via
+                                    Wi-Fi. With an Android app to send commands and a PC app to receive them, you can
+                                    navigate slides easily, making presentations hassle-free.
+                                </p>
+                                <p style="font-weight: 600; padding:2px 3px;">Tech Stack: Python, Java, XML</p>
+                            </div>
+                        </div>
+
+                        <div class="project"
+                            style="display: flex;background-color: #fada9b; margin: 10px; padding-right: 6px; border-radius: 5px;width: 91%;overflow: hidden;">
+                            <div style="background-color: #f69b09; padding: 5px;"></div>
+                            <div>
+                                <p style="font-weight: 600; padding: 3px;">GPA Converter</p>
+                                <p style=" padding: 0 3px;"><span style="font-weight: 600;">Description: </span>An
+                                    easy-to-use GPA converter for DBATU students, simplifying CGPA, percentage, grade,
+                                    and SGPA conversions.
+                                </p>
+                                <p style="font-weight: 600; padding:2px 3px;">Tech Stack: React.js, HTML, Bootstrap,
+                                    Javascript, JSON</p>
+                            </div>
+                        </div>
+
+                        <div class="project"
+                            style="display: flex;background-color: #fada9b; margin: 10px; padding-right: 6px; border-radius: 5px;width: 91%;overflow: hidden;">
+                            <div style="background-color: #f69b09; padding: 5px;"></div>
+                            <div>
+                                <p style="font-weight: 600; padding: 3px;">Excel to VCF Converter</p>
+                                <p style=" padding: 0 3px;"><span style="font-weight: 600;">Description:
+                                    </span>Excel to VCF Converter is a tool that enables seamless conversion of Excel
+                                    contacts to VCF format, allowing users to import and share contact lists across
+                                    Android and iOS with a single click.
+                                </p>
+                                <p style="font-weight: 600; padding:2px 3px;">Tech Stack: Node.js, Express.js, HTML,
+                                    CSS, Javascript, JSON</p>
+                            </div>
+                        </div>
+
+                        <div class="project"
+                            style="display: flex;background-color: #fada9b; margin: 10px; padding-right: 6px; border-radius: 5px;width: 91%;overflow: hidden;">
+                            <div style="background-color: #f69b09; padding: 5px;"></div>
+                            <div>
+                                <p style="font-weight: 600; padding: 3px;">Ananymo</p>
+                                <p style=" padding: 0 3px;"><span style="font-weight: 600;">Description:
+                                    </span>Ananymo is a community-driven platform where tech enthusiasts and developers
+                                    collaborate to solve coding challenges and share knowledge.
+                                </p>
+                                <p style="font-weight: 600; padding:2px 3px;">Tech Stack: React.js, HTML, CSS,
+                                    Javascript, Firebase</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- <div class="section">
+                        <h5>Achievements</h5>
+                        <div style="margin: 10px 20px;">
+                            <div style="display: flex; margin-bottom: 5px;">
+                                <div style="background-color: #f69b09;padding: 6px;"></div>
+                                <div>
+                                    <p style="font-weight: 600;">Certification in js</p>
+                                </div>
+                            </div>
+
+                            <div style="display: flex; margin-bottom: 5px;">
+                                <div style="background-color: #f69b09;padding: 6px;"></div>
+                                <div>
+                                    <p style="font-weight: 600;">Certification in js</p>
+                                </div>
+                            </div>
+
+                            <div style="display: flex; margin-bottom: 5px;">
+                                <div style="background-color: #f69b09;padding: 6px;"></div>
+                                <div>
+                                    <p style="font-weight: 600;">Certification in js</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+{
+    "Details": {
+        "name": "Umendrakumar Pardhi",
+        "mobile": "7447564274",
+        "email": "umendratpardhi@gmail.com",
+        "careerObjective": "Motivated and detail-oriented aspiring full stack developer, eager to apply my skills in creating user-friendly web solutions. Committed to learning and contributing to impactful projects as I begin my career in web development.",
+        "address": "Gondia",
+        "city": "Gondia",
+        "state": "Maharashtra",
+        "zip": "441614",
+        "Education": [
+            {
+                "Class": "10th",
+                "School\/College": "Chhatrapati Vidyalaya, Sitepar",
+                "Board\/University": "State Board",
+                "Score": "87.40%"
+            },
+            {
+                "Class": "Diploma",
+                "School\/College": "Government Polytechnic, Gondia",
+                "Board\/University": "MSBTE, Mumbai",
+                "Score": "89.14%"
+            },
+            {
+                "Class": "Engg",
+                "School\/College": "GCOE, Yavatmal",
+                "Board\/University": "DBATU, Lonere",
+                "Score": "72.30%"
+            }
+        ],
+        "Skills": [
+            {
+                "Skill": "HTML\/CSS",
+                "Remark": "Developed Online Service Center Website and several Pages"
+            },
+            {
+                "Skill": "Javascript",
+                "Remark": "Developed Terminal styled Portfolio Website, HTML Editor, Unit Converter"
+            },
+            {
+                "Skill": "React.js",
+                "Remark": "Developed GPA Converter for DBATU, ServiceLinkPro, Ananymo Website"
+            },
+            {
+                "Skill": "Node.js\/Express.js",
+                "Remark": "Developed Excel to Vcf converter, TrigLink"
+            },
+            {
+                "Skill": "Java",
+                "Remark": "Developed SlideSync an Android app that helps to control PPT slides Remotely"
+            },
+            {
+                "Skill": "Python",
+                "Remark": "Developed SlideSync Server Desktop app that helps to control PPT slides Remotely"
+            },
+            {
+                "Skill": "PHP",
+                "Remark": "The Brand of Beauty E-commerce Website"
+            }
+        ],
+        "Projects": [
+            {
+                "Title": "SlideSync",
+                "Description": "SlideSync lets you control PowerPoint slides from your Android phone via Wi-Fi. With an Android app to send commands and a PC app to receive them, you can navigate slides easily, making presentations hassle-free.",
+                "TechStack": "Python, Java, XML",
+                "Role": "Sole Developer",
+                "TeamSize": ""
+            },
+            {
+                "Title": "GPA Converter",
+                "Description": "An easy-to-use GPA converter for DBATU students, simplifying CGPA, percentage, grade, and SGPA conversions.",
+                "TechStack": "React.js, HTML, Bootstrap, Javascript, JSON",
+                "Role": "Sole Developer",
+                "TeamSize": ""
+            },
+            {
+                "Title": "Excel to VCF Converter",
+                "Description": "Excel to VCF Converter is a tool that enables seamless conversion of Excel contacts to VCF format, allowing users to import and share contact lists across Android and iOS with a single click.",
+                "TechStack": "Node.js, Express.js, HTML, CSS, Javascript, JSON",
+                "Role": "Sole Developer",
+                "TeamSize": ""
+            },
+            {
+                "Title": "Ananymo",
+                "Description": "Ananymo is a community-driven platform where tech enthusiasts and developers collaborate to solve coding challenges and share knowledge.",
+                "TechStack": "React.js, HTML, CSS, Javascript, Firebase",
+                "Role": "Team Leader",
+                "TeamSize": "3"
+            }
+        ],
+        "Achievements": [
+            {
+                "Title": "Winner of Inpire Award (Science Exhibition)"
+            },
+            {
+                "Title": "Lead Developer at GCOEY CODING CLUB"
+            },
+            {
+                "Title": "Secretary, Computer Engineering Student Association (CESA) at GCOEY"
+            }
+        ]
+    }
+}
